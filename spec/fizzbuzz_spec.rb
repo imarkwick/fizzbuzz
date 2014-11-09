@@ -8,7 +8,7 @@ describe 'fizzbizz' do
 			expect(is_divisible_by_three?(3)).to be true
 		end
 
-		it 'is divisible by five?' do
+		it 'is divisible by five' do
 			expect(is_divisible_by_five?(5)).to be true
 		end
 
@@ -36,14 +36,13 @@ describe 'when playing fizzbuzz' do
 		expect(fizzbuzz_says(3)).to eq "fizz"
 	end
 
-	it '"bizz" when divisible by five' do
+	it '"buzz" when divisible by five' do
 		expect(fizzbuzz_says(5)).to eq "buzz"
 	end
 
-	it '"fizzbizz" when divisible by fifteen' do
-		expect(fizzbuzz_says(15)).to eq "fizzbizz"
+	it '"fizzbuzz" when divisible by fifteen' do
+		expect(fizzbuzz_says(15)).to eq "fizzbuzz"
 	end
-
 end
 
 
