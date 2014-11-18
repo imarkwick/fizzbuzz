@@ -4,15 +4,15 @@ describe 'fizzbizz' do
 
 	context 'knows when a number' do
 
-		it 'should fizz if divisible by three' do
+		it 'should know when a number is divisible by three' do
 			expect(is_divisible_by_three?(3)).to be true
 		end
 
-		it 'should buzz if divisible by five' do
+		it 'should know when a number is divisible by five' do
 			expect(is_divisible_by_five?(5)).to be true
 		end
 
-		it 'should fizzbuzz if divisible by fifteen' do
+		it 'should know when a number is divisible by fifteeen' do
 			expect(is_divisible_by_fifteen?(15)).to be true
 		end
 
@@ -44,7 +44,7 @@ describe 'when playing fizzbuzz' do
 		expect(fizzbuzz_says(15)).to eq "fizzbuzz"
 	end
 
-	it 'should return the number if none of abover' do
+	it 'should return the number if none of above' do
 		expect(fizzbuzz_says(1)).to eq 1
 	end
 end
