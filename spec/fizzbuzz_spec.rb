@@ -15,33 +15,21 @@ describe 'fizzbuzz' do
 		it 'should know when a number is divisible by fifteen' do
 			expect(is_divisible_by_fifteen?(15)).to eq true
 		end
-
-		it 'should know when not divisible by three' do
-			expect(is_divisible_by_three?(1)).to eq false
-		end
-
-		it 'should know when not divisible by five' do
-			expect(is_divisible_by_five?(1)).to eq false
-		end
-
-		it 'should know when not divisible by fifteen' do
-			expect(is_divisible_by_fifteen?(1)).to eq false
-		end
 	end
 
-	it 'should "fizz" if divisible by three' do
+	it 'should "fizz" when divisible by three' do
 		expect(fizzbuzz_says(3)).to eq "fizz"
 	end
 
-	it 'should "buzz" if divsiible by five' do
+	it 'should "buzz" when divisible by five' do
 		expect(fizzbuzz_says(5)).to eq "buzz"
 	end
 
-	it 'should "fizzbuzz" if divisible by fifteen' do
+	it 'should "fizzbuzz" when divisible by fifteen' do
 		expect(fizzbuzz_says(15)).to eq "fizzbuzz"
 	end
 
-	it 'should return the number if none of above' do
+	it 'should return the number if none of the above' do
 		expect(fizzbuzz_says(1)).to eq 1
 	end
 end
