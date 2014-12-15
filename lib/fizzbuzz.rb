@@ -16,3 +16,12 @@ def fizzbuzz_says(number)
 	return "Buzz" if is_divisible_by_five?(number)
 	number
 end
+
+
+
+
+
+
+
+
+
