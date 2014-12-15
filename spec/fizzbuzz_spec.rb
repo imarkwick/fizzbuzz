@@ -34,15 +34,15 @@ describe 'fizzbuzz' do
 
 	context 'when playing, says' do
 
-		it '"Fizz" if divisible by three' do
+		it '"Fizz" when divisible by three' do
 			expect(fizzbuzz_says(3)).to eq "Fizz"
 		end
 
-		it '"Buzz" if divisible by five' do
+		it '"Buzz" when divisible by five' do
 			expect(fizzbuzz_says(5)).to eq "Buzz"
 		end
 
-		it '"Fizzbuzz" if divisible by fifteen' do
+		it '"Fizzbuzz when divisible by fifteen' do
 			expect(fizzbuzz_says(15)).to eq "Fizzbuzz"
 		end
 
@@ -51,14 +51,6 @@ describe 'fizzbuzz' do
 		end
 	end
 end
-
-
-
-
-
-
-
-
 
 
 
