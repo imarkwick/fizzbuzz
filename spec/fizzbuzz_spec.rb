@@ -14,7 +14,7 @@ describe 'fizzbuzz' do
 
 		it 'divisible by fifteen' do
 			expect(is_divisible_by_fifteen?(15)).to eq true
-		end
+		end	
 	end
 
 	context 'knows when a number is NOT' do
@@ -42,15 +42,22 @@ describe 'fizzbuzz' do
 			expect(fizzbuzz_says(5)).to eq "Buzz"
 		end
 
-		it '"Fizzbuzz when divisible by fifteen' do
+		it '"Fizzbuzz" when divisible by fifteen' do
 			expect(fizzbuzz_says(15)).to eq "Fizzbuzz"
 		end
 
-		it 'returns the number if none of the above' do
+		it 'returns the number if none of above' do
 			expect(fizzbuzz_says(1)).to eq 1
 		end
 	end
 end
+
+
+
+
+
+
+
 
 
 
