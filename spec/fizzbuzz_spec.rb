@@ -1,8 +1,8 @@
 require 'fizzbuzz'
 
-describe 'fizzbuzz' do
+describe 'fizzbuzz' do 
 
-	context 'knows when a number is' do
+	context 'know when a number is' do
 
 		it 'divisible by three' do
 			expect(is_divisible_by_three?(3)).to eq true
@@ -14,7 +14,7 @@ describe 'fizzbuzz' do
 
 		it 'divisible by fifteen' do
 			expect(is_divisible_by_fifteen?(15)).to eq true
-		end	
+		end
 	end
 
 	context 'knows when a number is NOT' do
@@ -22,7 +22,7 @@ describe 'fizzbuzz' do
 		it 'divisible by three' do
 			expect(is_divisible_by_three?(1)).to eq false
 		end
-
+	
 		it 'divisible by five' do
 			expect(is_divisible_by_five?(1)).to eq false
 		end
@@ -46,19 +46,11 @@ describe 'fizzbuzz' do
 			expect(fizzbuzz_says(15)).to eq "Fizzbuzz"
 		end
 
-		it 'returns the number if none of above' do
+		it 'returns the number if none of the above' do
 			expect(fizzbuzz_says(1)).to eq 1
 		end
 	end
 end
-
-
-
-
-
-
-
-
 
 
 
