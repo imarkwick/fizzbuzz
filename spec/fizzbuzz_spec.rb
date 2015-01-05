@@ -1,8 +1,10 @@
+
+
 require 'fizzbuzz'
 
-describe 'fizzbuzz' do 
+describe 'Fizzbuzz' do
 
-	context 'know when a number is' do
+	context 'knows when a number is' do
 
 		it 'divisible by three' do
 			expect(is_divisible_by_three?(3)).to eq true
@@ -22,7 +24,7 @@ describe 'fizzbuzz' do
 		it 'divisible by three' do
 			expect(is_divisible_by_three?(1)).to eq false
 		end
-	
+
 		it 'divisible by five' do
 			expect(is_divisible_by_five?(1)).to eq false
 		end
@@ -50,7 +52,12 @@ describe 'fizzbuzz' do
 			expect(fizzbuzz_says(1)).to eq 1
 		end
 	end
+
 end
+
+
+
+
 
 
 
