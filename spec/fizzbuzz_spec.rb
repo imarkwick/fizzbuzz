@@ -1,5 +1,3 @@
-
-
 require 'fizzbuzz'
 
 describe 'Fizzbuzz' do
@@ -26,7 +24,7 @@ describe 'Fizzbuzz' do
 		end
 
 		it 'divisible by five' do
-			expect(is_divisible_by_five?(1)).to eq false
+			expect(is_divisible_by_three?(1)).to eq false
 		end
 
 		it 'divisible by fifteen' do
@@ -52,12 +50,5 @@ describe 'Fizzbuzz' do
 			expect(fizzbuzz_says(1)).to eq 1
 		end
 	end
-
 end
-
-
-
-
-
-
 

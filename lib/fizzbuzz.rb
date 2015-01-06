@@ -21,10 +21,3 @@ def fizzbuzz_says(number)
 	number
 end
 
-
-
-
-
-
-
-
